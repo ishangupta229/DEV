@@ -1,0 +1,43 @@
+*{
+    background-color: rgba(209, 209, 209, 1);
+
+}
+#outer{
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid saddlebrown ; */
+    margin: 0px auto;
+    background-color: rgb(255, 255, 255);
+}
+
+#circle{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+#eye1,#eye2{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    margin-top: 30px ;
+    margin-left: 50px ;
+}
+#eye2{
+    margin-left: 120px ;
+
+}
+#mouth{
+    height: 20px; 
+    width: 100px;
+    background-color: brown;
+    border-radius: 0 0 50% 50%;
+    position: absolute;
+    margin-top: 120px ;
+    margin-left: 50px ;
+
+}
