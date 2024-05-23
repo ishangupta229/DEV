@@ -1,0 +1,50 @@
+*{
+    background-image:url(photo.jpg);
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+#check{
+
+}
+
+.sidebar_menu{
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    opacity: 0.98;
+}
+
+.logo{
+    position: absolute;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.menu{
+    position: relative;
+    line-height: 20px;
+    width: 100%;
+    font-size: 30px;
+}
+
+.menu ul li a{
+    line-height: 20px;
+    font-size: 20px;
+}
+.menu ul li i {
+    font-size: 20px;
+    padding-right: 8px;
+
+}
+
+
+/* #check:checked{
+    .sidebar_menu{
+        display: block;
+    }
+} */
